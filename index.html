@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ProgettoFesta</title>
+
+    <link rel="stylesheet" type="text/css" href="stylie.css" />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="vsc-initialized">
+    <!-- <div id="notAvailable">
+      <div id="text">WAIT FOR<br>THE NEXT MARITTIMA</div>
+    </div> -->
+    <!-- <img src="./addoni/logo.png" alt="logo" id="logo" /> -->
+    <h1 style="text-align: center">what do you compete for tonight?
+    <div class="wrapper">
+      <script src="home.js"></script>
+      <input
+        id="textBar"
+        placeholder="type something"
+        maxlength="40"
+        onblur="getVal()"
+        required=""
+      />
+    </div>
+    <script src="./firebase.js"></script>
+
+    <!-- <img src="./addoni/Planted.gif" alt="planted" id="planted" /> -->
+
+    <main>
+      <canvas
+        id="defaultCanvas0"
+        class="p5Canvas"
+        width="1524"
+        height="1476"
+        style="width: 762px; height: 738px"
+      ></canvas>
+    </main>
+    <!-- <button class="enterButton">SEND</button> -->
+  </body>
+</html>
